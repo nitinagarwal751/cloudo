@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /pages/
+Allow: /sitemap.xml
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /private/
+Allow: /public/
+Sitemap: https://cloudoftutors.com/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Allow: /sitemap.xml
+Allow: /*.html$
+Allow: /assets/js/
+Allow: /assets/css/
+
+User-agent: Googlebot-Mobile
+Allow: /
+Allow: /sitemap.xml
+Allow: /*.html$
+Allow: /assets/js/
+Allow: /assets/css/
+
+# Algolia-Crawler-Verif: 4100500EBB45A8FF
